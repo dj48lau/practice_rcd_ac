@@ -1,0 +1,20 @@
+C:\Users\Mihai\documents\visual studio 2013\Projects\FileManager\FileManager\bin\Debug\FileManager.exe.config
+C:\Users\Mihai\documents\visual studio 2013\Projects\FileManager\FileManager\bin\Debug\FileManager.exe
+C:\Users\Mihai\documents\visual studio 2013\Projects\FileManager\FileManager\bin\Debug\FileManager.pdb
+C:\Users\Mihai\documents\visual studio 2013\Projects\FileManager\FileManager\obj\Debug\FileManager.FileManager.resources
+C:\Users\Mihai\documents\visual studio 2013\Projects\FileManager\FileManager\obj\Debug\FileManager.ProjectInstaller.resources
+C:\Users\Mihai\documents\visual studio 2013\Projects\FileManager\FileManager\obj\Debug\FileManager.csproj.GenerateResource.Cache
+C:\Users\Mihai\documents\visual studio 2013\Projects\FileManager\FileManager\obj\Debug\FileManager.exe
+C:\Users\Mihai\documents\visual studio 2013\Projects\FileManager\FileManager\obj\Debug\FileManager.pdb
+C:\Users\chiva\Desktop\New folder\FileManager\FileManager\bin\Debug\FileManager.exe.config
+C:\Users\chiva\Desktop\New folder\FileManager\FileManager\obj\Debug\FileManager.exe
+C:\Users\chiva\Desktop\New folder\FileManager\FileManager\obj\Debug\FileManager.pdb
+D:\bla bla\FileManager\FileManager\bin\Debug\FileManager.exe
+D:\bla bla\FileManager\FileManager\bin\Debug\FileManager.exe.config
+D:\bla bla\FileManager\FileManager\obj\Debug\FileManager.FileManager.resources
+D:\bla bla\FileManager\FileManager\obj\Debug\FileManager.ProjectInstaller.resources
+D:\bla bla\FileManager\FileManager\obj\Debug\FileManager.csproj.GenerateResource.Cache
+D:\bla bla\FileManager\FileManager\obj\Debug\FileManager.exe
+D:\bla bla\FileManager\FileManager\obj\Debug\FileManager.pdb
+D:\bla bla\FileManager\FileManager\bin\Debug\FileManager.pdb
+D:\bla bla\FileManager\FileManager\obj\Debug\FileManager.csprojResolveAssemblyReference.cache
