@@ -18,3 +18,12 @@ D:\bla bla\FileManager\FileManager\obj\Debug\FileManager.exe
 D:\bla bla\FileManager\FileManager\obj\Debug\FileManager.pdb
 D:\bla bla\FileManager\FileManager\bin\Debug\FileManager.pdb
 D:\bla bla\FileManager\FileManager\obj\Debug\FileManager.csprojResolveAssemblyReference.cache
+C:\Users\a.chiva\Desktop\New folder\FileManager\bin\Debug\FileManager.exe.config
+C:\Users\a.chiva\Desktop\New folder\FileManager\bin\Debug\FileManager.exe
+C:\Users\a.chiva\Desktop\New folder\FileManager\bin\Debug\FileManager.pdb
+C:\Users\a.chiva\Desktop\New folder\FileManager\obj\Debug\FileManager.csprojResolveAssemblyReference.cache
+C:\Users\a.chiva\Desktop\New folder\FileManager\obj\Debug\FileManager.FileManager.resources
+C:\Users\a.chiva\Desktop\New folder\FileManager\obj\Debug\FileManager.ProjectInstaller.resources
+C:\Users\a.chiva\Desktop\New folder\FileManager\obj\Debug\FileManager.csproj.GenerateResource.Cache
+C:\Users\a.chiva\Desktop\New folder\FileManager\obj\Debug\FileManager.exe
+C:\Users\a.chiva\Desktop\New folder\FileManager\obj\Debug\FileManager.pdb

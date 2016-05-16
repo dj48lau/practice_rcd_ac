@@ -1,0 +1,12 @@
+C:\Users\a.chiva\Desktop\New folder\FileManager.Model\bin\Debug\FileManager.Model.dll
+C:\Users\a.chiva\Desktop\New folder\FileManager.Model\bin\Debug\FileManager.Model.pdb
+C:\Users\a.chiva\Desktop\New folder\FileManager.Model\obj\Debug\FileManager.Model.dll
+C:\Users\a.chiva\Desktop\New folder\FileManager.Model\obj\Debug\FileManager.Model.pdb
+C:\Users\Mihai\Desktop\FileManager\FileManager.Model\bin\Debug\FileManager.Model.dll
+C:\Users\Mihai\Desktop\FileManager\FileManager.Model\bin\Debug\FileManager.Model.pdb
+C:\Users\Mihai\Desktop\FileManager\FileManager.Model\obj\Debug\FileManager.Model.dll
+C:\Users\Mihai\Desktop\FileManager\FileManager.Model\obj\Debug\FileManager.Model.pdb
+C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager.Model\bin\Debug\FileManager.Model.dll
+C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager.Model\bin\Debug\FileManager.Model.pdb
+C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager.Model\obj\Debug\FileManager.Model.dll
+C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager.Model\obj\Debug\FileManager.Model.pdb

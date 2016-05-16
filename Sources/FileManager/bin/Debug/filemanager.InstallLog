@@ -1,0 +1,97 @@
+﻿Uninstalling assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Removing EventLog source ServiciuCreatDeMine.
+Service ServiciuCreatDeMine is being removed from the system...
+Service ServiciuCreatDeMine was successfully removed from the system.
+Installing assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Installing service ServiciuCreatDeMine...
+Service ServiciuCreatDeMine has been successfully installed.
+Creating EventLog source ServiciuCreatDeMine in log Application...
+Committing assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Uninstalling assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Removing EventLog source ServiciuCreatDeMine.
+Service ServiciuCreatDeMine is being removed from the system...
+Service ServiciuCreatDeMine was successfully removed from the system.
+Installing assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Installing service ServiciuCreatDeMine...
+Service ServiciuCreatDeMine has been successfully installed.
+Creating EventLog source ServiciuCreatDeMine in log Application...
+Committing assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Uninstalling assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Removing EventLog source ServiciuCreatDeMine.
+Service ServiciuCreatDeMine is being removed from the system...
+Service ServiciuCreatDeMine was successfully removed from the system.
+Installing assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Installing service ServiciuCreatDeMine...
+Service ServiciuCreatDeMine has been successfully installed.
+Creating EventLog source ServiciuCreatDeMine in log Application...
+Committing assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Installing assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Installing service ServiciuCreatDeMine...
+Creating EventLog source ServiciuCreatDeMine in log Application...
+Rolling back assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Restoring event log to previous state for source ServiciuCreatDeMine.
+Uninstalling assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Removing EventLog source ServiciuCreatDeMine.
+Service ServiciuCreatDeMine is being removed from the system...
+Service ServiciuCreatDeMine was successfully removed from the system.
+Installing assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
+Installing service ServiciuCreatDeMine...
+Service ServiciuCreatDeMine has been successfully installed.
+Creating EventLog source ServiciuCreatDeMine in log Application...
+Committing assembly 'C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.InstallLog
+   assemblypath = C:\Users\a.chiva\Desktop\FileManagerFolder\FileManager\FileManager\bin\Debug\filemanager.exe
