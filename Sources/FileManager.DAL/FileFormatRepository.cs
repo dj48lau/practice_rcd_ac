@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FileManager.Model;
+using System.Data.Entity;
+using System.Data.Entity.Core.Objects;
 
 namespace FileManager.DAL.FileManager.DAL
 {
@@ -52,6 +54,7 @@ namespace FileManager.DAL.FileManager.DAL
         public int GetFileFormatID(String formatName)
         {
             int formatID = 0;
+
             List<Model.FileFormat> formats = _dbContext.FilesFormats.ToList();
             foreach (Model.FileFormat format in formats)
             {
@@ -64,6 +67,19 @@ namespace FileManager.DAL.FileManager.DAL
 
         }
 
+        public String GetFileFormatName(int fileFormatID)
+        {
+            String fileFormatName = "";
 
+            List<Model.FileFormat> formats = _dbContext.FilesFormats.ToList();
+            foreach (Model.FileFormat format in formats)
+            {
+                if (format.ID==fileFormatID)
+                {
+                    fileFormatName = format.FormatName;
+                }
+            }
+            return fileFormatName;
+        }
     }
 }

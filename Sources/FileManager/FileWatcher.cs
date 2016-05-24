@@ -18,7 +18,6 @@ namespace FileManager
         private static String destinationSubFolderPath;
         private static String destinationFilePath;
 
-
         public static void FileWatcherInitialisation()
         {
             FMHelper.WriteErrorLog(" inceput functie fs");
@@ -31,64 +30,64 @@ namespace FileManager
 
             watcher.Filter = "*.*";
 
-            // Add event handlers.
-            // watcher.Changed += new FileSystemEventHandler(OnChanged);
             watcher.Created += new FileSystemEventHandler(OnChanged);
-            // watcher.Deleted += new FileSystemEventHandler(OnChanged);
-            // watcher.Renamed += new RenamedEventHandler(OnRenamed);
 
-            // Begin watching.
             watcher.EnableRaisingEvents = true;
 
             FMHelper.WriteErrorLog("final functie fs");
 
         }
 
+       
+
         private static void OnChanged(object source, FileSystemEventArgs e)
         {
-            FMHelper.WriteErrorLog("intra in onchanged");
+           // FMHelper.WriteErrorLog("intra in onchanged");
             String extension;
 
             FileService _fileServices = new FileService();
             FileFormatService _fileFormatServices = new FileFormatService();
             MetadataService _metadataServices = new MetadataService();
 
-
-            // Specify what is done when a file is changed, created, or deleted.
-            //string[] fileEntries = Directory.GetFiles(targetDirectoryPath);
             String str = e.FullPath;
             Thread.Sleep(5000);
             if (e.ChangeType.ToString().Equals("Created"))
             {
-                FMHelper.WriteErrorLog("intra in on created");
+                //FMHelper.WriteErrorLog("intra in on created");
 
-                String fileName = Path.GetFileName(str);
+                String fileName = Path.GetFileNameWithoutExtension(str);
                 Boolean formatExists = false;
                 extension = Path.GetExtension(str);
-                String creationDate = File.GetCreationTime(str).ToString("D");
-                String modifiedDate = File.GetLastWriteTime(str).ToString("D");
+                DateTime creationDate = File.GetCreationTime(str);
+                DateTime modifiedDate = File.GetLastWriteTime(str);
                 String owner = File.GetAccessControl(str).GetOwner(typeof(System.Security.Principal.NTAccount)).ToString();
                 int fileSize = (int)new System.IO.FileInfo(str).Length;
                 extension = extension.Substring(1, (extension.Length - 1));
 
                 destinationSubFolderPath = destinationFolderPath + "\\" + extension;
-                destinationFilePath = destinationSubFolderPath + "\\" + e.Name;
+                destinationFilePath = destinationSubFolderPath + "\\" + fileName + "." + extension;
 
-               
-                
+
+
                 if (Directory.Exists(destinationSubFolderPath))
                 {
                     formatExists = _fileFormatServices.FormatExists(extension);
 
 
-                    if (!formatExists)
+                    if (_fileServices.FileExists(fileName, extension))
                     {
-                        _fileFormatServices.InsertFileFormat(extension, destinationSubFolderPath, "10");
+                        fileName = fileName + "_" + DateTime.Now.ToString(" dd MM yyyy hh-mm");
+                        destinationFilePath = destinationSubFolderPath + "\\" + fileName + "." + extension;
+                        _fileServices.InsertFile(fileName, fileSize, "", owner, creationDate, modifiedDate, _fileFormatServices.GetFileFormatID(extension));
+                        _metadataServices.InsertMatadata("nrofpages", 1);
+
+                    }
+                    else
+                    {
+                        _fileServices.InsertFile(fileName, fileSize, "", owner, creationDate, modifiedDate, _fileFormatServices.GetFileFormatID(extension));
+                        _metadataServices.InsertMatadata("nrofpages", 1);
                     }
 
-
-                    _fileServices.InsertFile(fileName, fileSize, "", owner, creationDate, modifiedDate, _fileFormatServices.GetFileFormatID(extension));
-                    _metadataServices.InsertMatadata("nrofpages", 1);
                     MoveAsync(str, destinationFilePath);
 
                 }
@@ -105,13 +104,9 @@ namespace FileManager
                     _fileServices.InsertFile(fileName, fileSize, "", owner, creationDate, modifiedDate, _fileFormatServices.GetFileFormatID(extension));
                     _metadataServices.InsertMatadata("nrofpages", 1);
 
-
-
                     MoveAsync(str, destinationFilePath);
                 }
-                // destinationFilePath = "";
-                //  destinationSubFolderPath = "";
-                //  extension = "";
+
             }
             FMHelper.WriteErrorLog("File: " + e.FullPath + " " + e.ChangeType);
         }
@@ -130,6 +125,8 @@ namespace FileManager
             // Specify what is done when a file is renamed.
             FMHelper.WriteErrorLog("File: " + e.OldFullPath + "renamed to {1}" + e.FullPath);
         }
+
+       
 
     }
 }

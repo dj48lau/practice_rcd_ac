@@ -42,6 +42,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Files.cs" />
     <Compile Include="FileFormat.cs" />
+    <Compile Include="FileViewModel.cs" />
     <Compile Include="Metadata.cs" />
     <Compile Include="MetadataValue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

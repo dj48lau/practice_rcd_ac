@@ -14,8 +14,8 @@ namespace FileManager.Model
         public int Size { get; set; }
         public string Author { get; set; }
         public string Owner { get; set; }
-        public string CreatedDate { get; set; }
-        public string ModifiedDate { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime ModifiedDate { get; set; }
         public int FileFormatID { get; set; }
         public virtual FileFormat FileFormat { get; set; }
 

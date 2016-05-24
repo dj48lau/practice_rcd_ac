@@ -15,7 +15,7 @@ namespace FileManager
 
             try
             {
-                sw =new StreamWriter("C:\\Users\\a.chiva\\Desktop\\Log1.txt",true);
+                sw = new StreamWriter("C:\\Users\\Mihai\\Desktop\\Log1.txt", true);
                 sw.WriteLine(DateTime.Now.ToString()+"   "+message);
                 sw.Flush();
                 sw.Close();

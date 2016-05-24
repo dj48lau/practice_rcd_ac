@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManager.DAL", "FileMana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{E73993FF-D0D0-4236-8187-42C45E5B481C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManager.WFA", "FileManager.WFA\FileManager.WFA.csproj", "{2A2A4CD2-6B89-458A-BFA2-E64F15098B5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E73993FF-D0D0-4236-8187-42C45E5B481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E73993FF-D0D0-4236-8187-42C45E5B481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E73993FF-D0D0-4236-8187-42C45E5B481C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2A4CD2-6B89-458A-BFA2-E64F15098B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2A4CD2-6B89-458A-BFA2-E64F15098B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2A4CD2-6B89-458A-BFA2-E64F15098B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2A4CD2-6B89-458A-BFA2-E64F15098B5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

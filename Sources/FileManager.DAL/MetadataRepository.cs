@@ -9,13 +9,19 @@ namespace FileManager.DAL
 {
    public  class MetadataRepository
     {
-        public FileManagerContext _dbContext;
+        public static FileManagerContext _dbContext;
 
         public MetadataRepository()
         {
           _dbContext = new FileManagerContext();
 
         }
+
+        public List<Model.Metadata> GetAllMetadata()
+        {
+            return _dbContext.Metadate.ToList();
+        }
+
 
         public void InsertMetadata(String MetadataName, int FileFormatID) 
         {
@@ -26,5 +32,11 @@ namespace FileManager.DAL
             _dbContext.SaveChanges();
 
         }
+
+       // public void SearchMetadata() 
+        //{ 
+        //   String str = (from Metadata in _dbContext.Metadate where Metadata.MetadataName.Contains)
+        
+        //}
     }
 }

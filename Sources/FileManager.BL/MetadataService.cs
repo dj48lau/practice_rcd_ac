@@ -23,5 +23,10 @@ namespace FileManager.BL
         
         }
 
+        public List<Model.Metadata> GetAllMetadata() 
+        {
+           return _metadataRepository.GetAllMetadata();
+        }
+
     }
 }

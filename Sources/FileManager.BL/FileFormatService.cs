@@ -38,5 +38,9 @@ namespace FileManager.BL
 
         }
 
+        public String GetFileFormatName(int fileFormatID) {
+            return _fileFormatRepository.GetFileFormatName(fileFormatID);
+        }
+
     }
 }
